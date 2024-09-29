@@ -82,7 +82,7 @@ import java.util.Scanner;
 
 public class VolumeKubus {
     public static void main(String[] args) {
-        Scanner input = new Scanner(System.in);
+          Scanner input = new Scanner(System.in);
 
         System.out.print("Masukkan panjang sisi kubus: ");
         double sisi = input.nextDouble();
