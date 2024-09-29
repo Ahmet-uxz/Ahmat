@@ -4,16 +4,17 @@ public class teluryangdibeli {
 
     public static void main(String[] args) {
         Scanner inputan = new Scanner(System.in);
-    System.out.print("Masukan (kg) telur yang dibeli: ");
-    Double kiloTelur = inputan.nextDouble();
+        
+        System.out.print("Masukan (kg) telur yang dibeli: ");
+        Double kiloTelur = inputan.nextDouble();
 
-    System.out.print("Masukan Uang Bayar");
-    Double uangBayar = inputan.nextDouble();
+        System.out.print("Masukan Uang Bayar");
+        Double uangBayar = inputan.nextDouble();
 
-    double hargaTelur = kiloTelur * 28000;
-    double kembalian = uangBayar - hargaTelur;
+        double hargaTelur = kiloTelur * 28000;
+        double kembalian = uangBayar - hargaTelur;
 
-    System.out.println("Harga Telur per Kilogram: " + kembalian);
+        System.out.println("Harga Telur per Kilogram: " + kembalian);
     }
 }
 
@@ -82,7 +83,7 @@ import java.util.Scanner;
 
 public class VolumeKubus {
     public static void main(String[] args) {
-          Scanner input = new Scanner(System.in);
+        Scanner input = new Scanner(System.in);
 
         System.out.print("Masukkan panjang sisi kubus: ");
         double sisi = input.nextDouble();
