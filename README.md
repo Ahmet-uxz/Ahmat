@@ -15,6 +15,7 @@ public class teluryangdibeli {
         double kembalian = uangBayar - hargaTelur;
 
         System.out.println("Harga Telur per Kilogram: " + kembalian);
+        scanner.close();
     }
 }
 
