@@ -84,6 +84,7 @@ public class LuasPersegiPanjang {
 import java.util.Scanner;
 
 public class VolumeKubus {
+
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
 
